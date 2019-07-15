@@ -6,7 +6,7 @@ public class Project {
 
     private String projectName;
 
-    public Project(ProjectType projectType, String projectName) {
+    public Project(ProjectType projectType, String projectName) {  //传入一个枚举类型
         this.projectType = projectType;
         this.projectName = projectName;
     }
